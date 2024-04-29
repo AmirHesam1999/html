@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SVG Gradient Ellipse and Text5</title>
+    </head>
+    <body>
+        <svg width="500" height="130">
+		<defs>
+			<linearGradient id="grad1">
+				<stop offset="0%" stop-color="yellow"/>
+				<stop offset="100%" stop-color="red"/>
+			</linearGradient>
+		</defs>
+		<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+		<text fill="#ffffff" font-size="45" font-family="Verdona" x="50" y="86">SVG</text>
+            	Sorry, your browser does not support inline SVG.
+        </svg>
+    </body>
+</html>
