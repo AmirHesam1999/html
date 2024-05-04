@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video - Methods, Properties, and Events</title>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <button onclick="playPause()">Play/Pause</button>            
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <video id="video1" width="420">
+                <source src="../../../movie/mov_bbb.mp4" type="video/mp4">
+                <source src="../../../movie/mov_bbb.ogv" type="video/ogv">
+            </video>
+        </div>
+
+        <script>
+            var myVideo = document.getElementById("video1");
+
+            function playPause() {
+                if (myVideo.paused)
+                    myVideo.play();
+                else
+                    
+            }
+        </script>
+    </body>
+</html>
